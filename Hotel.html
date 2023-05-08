@@ -1,0 +1,72 @@
+
+<html>
+  <head>
+    <title>Hotel Awesome</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Hotel Awesome</h1>
+      <nav>
+        <ul>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#amenities">Amenities</a></li>
+          <li><a href="#reservations">Reservations</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h2>Welcome to Hotel Awesome</h2>
+        <p>Experience the ultimate in luxury and comfort</p>
+        <a href="#reservations" class="button">Book Now</a>
+      </section>
+      <section id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room">
+          <img src="room1.jpg" alt="Room 1">
+          <h3>Deluxe Room</h3>
+          <p>Starting at $200 per night</p>
+          <a href="#reservations" class="button">Book Now</a>
+        </div>
+        <div class="room">
+          <img src="room2.jpg" alt="Room 2">
+          <h3>Premium Room</h3>
+          <p>Starting at $300 per night</p>
+          <a href="#reservations" class="button">Book Now</a>
+        </div>
+      </section>
+      <section id="amenities">
+        <h2>Our Amenities</h2>
+        <ul>
+          <li>Swimming pool</li>
+          <li>Spa</li>
+          <li>Restaurant</li>
+          <li>Gym</li>
+        </ul>
+      </section>
+      <section id="reservations">
+        <h2>Reservations</h2>
+        <p>Book your stay now</p>
+        <form>
+          <label for="check-in">Check-in date:</label>
+          <input type="date" id="check-in" name="check-in">
+          <label for="check-out">Check-out date:</label>
+          <input type="date" id="check-out" name="check-out">
+          <label for="room-type">Room type:</label>
+          <select id="room-type" name="room-type">
+            <option value="deluxe">Deluxe Room</option>
+            <option value="premium">Premium Room</option>
+          </select>
+          <button type="submit" class="button">Book Now</button>
+        </form>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name
